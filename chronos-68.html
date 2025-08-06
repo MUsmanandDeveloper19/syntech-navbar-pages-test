@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- CSS -->
+      <link rel="stylesheet" href="Navbar-pages.css">
+     <!-- CSS //-->
+     <!-- CDN -->
+      <!-- cloudflare -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <!-- cloudflare -->
+      <!-- Swiper-slider -->
+       <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
+      <!-- Swiper-slider -->
+      <!-- Font-awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Font-awesome -->
+      <!-- Fade-aos-library  -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Fade-aos-library //-->
+       <!-- Bootstrap-5-css-cdn -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <!-- Bootstrap-5-css-cdn -->
+     <!-- CDN //-->
+    <title>Chronos 68</title>
+</head>
+<body>
+    
+<!-- Navbar -->
+<!-- banner-html-code -->
+   <div class="slider-container" data-aos="fade-down"
+     data-aos-duration="800">
+    <button class="slider-btn" onclick="prevSlide()">&lt;</button>
+    <div id="sliderText" class="slider-text">
+      Sign Up to Get 15% Off Your First Purchase. Code: UNLEASH15
+    </div>
+    <button class="slider-btn" onclick="nextSlide()">&gt;</button>
+  </div>
+<!-- banner-html-code -->
+<section>
+<!-- Navbar-html-code  -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="img-fluid" src="logo-synctech.avif" alt="Logo" style="width: 120px;">
+    </a>
+
+    <!-- Burger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" onclick="toggleDropdown('home')">Keyboards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" onclick="toggleDropdown('services')">For Gaming</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" onclick="toggleDropdown('about')">Made For Meta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" onclick="toggleDropdown('contact')">About Us</a>
+        </li>
+      </ul>
+
+      <!-- Right-side Icons -->
+      <div class="d-flex gap-2">
+        <a href="#" class="icon-btn">
+          <i class="fa-regular fa-user text-white" id="navbar-icon"></i>
+        </a>
+        <a href="#" class="icon-btn">
+          <!-- <i class="fas fa-shopping-cart"></i> -->
+        <i class="fa-solid fa-magnifying-glass text-white" id="navbar-icon"></i>        
+        </a>
+        <a href="#" class="icon-btn">
+          <!-- <i class="fas fa-user"></i> -->
+           <i class="fa-solid fa-cart-shopping text-white" id="navbar-icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Dropdowns -->
+
+<!-- KEYBOARD -->
+<div id="home" class="dropdown-section">
+  <h4>Keyboards</h4>
+  <div class="container mt-5">
+    <a href="#" id="a-tag-nono">
+      <h6 class="text-white mt-3">Bussiness Partner</h6>
+    </a>
+    <a href="#" id="a-tag-nono">
+      <h6 class="text-white mt-3">Supports</h6>
+    </a>
+    <a href="#" id="a-tag-nono">
+      <h6 class="text-white mt-3">Chronos 68</h6>
+    </a>
+    <a href="#" id="a-tag-nono">
+      <h6 class="text-white mt-3">Extra Keycaps</h6>
+    </a>
+  </div>
+</div>
+<!-- KEYBOARD //-->
+
+<!-- fOR GAMING -->
+<div id="services" class="dropdown-section">
+  <h4>For Gaming</h4>
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        
+        <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">Steam Deck LCD/OLED</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Protecter</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Docking Station</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Adapters</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Hard Carrying Case</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Silicone Protective Case</p>
+        </a>
+        
+
+        
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+ 
+     <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">ROG Ally/X</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Docking Station</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Hard Carrying Case</p>
+        </a>
+       
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-12">
+
+         <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">Nintendo Switch</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Switch Case</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Switch Protector</p>
+        </a>
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-12">
+
+          <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">AR/VR</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Head Straps</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Controller Grips Cover</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Smart Storage Solutions</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Link Cables</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Apple Vision Pro</p>
+        </a>
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-12">
+
+        <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">IT Accessory</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Adapters</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Iphone Charger</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Hubs</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">HDMI Cables</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Link Cables</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Bluetooth Receiver</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Phone Holder</p>
+        </a>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FOR GAMING //-->
+
+<!-- MADE-FOR-META -->
+<div id="about" class="dropdown-section">
+  <h4>Made For Meta</h4>
+  
+  <div class="container">
+    <div class="row d-flex">
+
+      <div class="col-lg-3 col-md-12 col-sm-12"></div>
+
+    <div class="col-lg-3 col-md-12 col-sm-12">
+ 
+    <!-- Supports -->
+      <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-4">Supports</h5>
+        </a>
+
+      <div class="mt-4">
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">FAQ</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Comtact Us</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Tutorials</p>
+        </a>
+      </div>
+    <!-- Supports -->
+
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+
+      <!-- POLICY -->
+     <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-4">Policy</h5>
+        </a>
+
+      <div class="mt-4">
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Privacy Policy</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Refund Policy</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Shipping Policy</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Terms of Services</p>
+        </a>
+      </div>
+      <!-- POLICY -->
+
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+
+    <!-- DOWNLOADS -->
+     <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-4">Downloads</h5>
+        </a>
+
+      <div class="mt-4">
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Installation Packages</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Drivers</p>
+        </a>
+      </div>
+      <!-- DOWNLOADS -->
+
+    </div>
+  </div>
+  </div>
+
+</div>
+<!-- MADE-FOR-META //-->
+
+<!-- ABOUT-US -->
+
+<div id="contact" class="dropdown-section">
+  <h4>About Us</h4>
+  
+   
+     <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-4">Blogs</h5>
+        </a>
+
+      <div class="mt-4">
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Evets</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">About Us</p>
+        </a>
+      </div>
+      <!-- DOWNLOADS -->
+</div>
+<!-- ABOUT-US //-->
+<!-- Navbar-html-code -->
+
+<!-- navbar-js-code -->
+<!-- Dropdown JS -->
+<script>
+  function toggleDropdown(id) {
+  // Close navbar if open (on mobile)
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+  if (window.innerWidth < 992 && navbarCollapse.classList.contains('show')) {
+    new bootstrap.Collapse(navbarCollapse).hide();
+  }
+
+  // Show selected dropdown
+  const sections = document.querySelectorAll('.dropdown-section');
+  const target = document.getElementById(id);
+
+  if (!target) return;
+
+  if (target.classList.contains('active')) {
+    target.classList.remove('active');
+  } else {
+    sections.forEach(s => s.classList.remove('active'));
+    target.classList.add('active');
+  }
+}
+
+</script>
+<!-- navbar-js-code -->
+
+<!-- Navbar //-->
+<!-- pages-inner-content-on-home-pg -->
+<!-- Dropdown Content Areas (Empty for now) -->
+<div id="home" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-4 text-center">  
+       <a href="#" class="text-white">
+        <b>Business Partner</b>
+       </a>
+       <br><br>
+       <a href="#" class="text-white">
+        <h5>Chronos 68</h5>
+       </a>
+      </div>
+      <!-- <div class="col-4"></div> -->
+      <div class="col-4 text-center">
+      <a href="#" class="text-white">
+        <b>Supports</b>
+      </a>
+      <br><br>
+      <a href="#" class="text-white">
+        <h5>Extra Keycaps</h5>
+      </a>
+      </div>
+    </div>
+  </div>
+  <!-- You can add content here later -->
+</div>
+<!-- navbar-for-gaming -->
+<div id="services" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+         <a href="#">
+          <h5 class="text-white">Steam Deck LCD/OLED</h5>
+         </a>
+          <br>
+           <!-- Protecter -->
+           <a href="#">
+            <p class="text-white">Protecter</p>
+           </a>
+           <!-- Protecter -->
+
+           <!-- Docking Station -->
+           <a href="#">
+            <p class="text-white">Docking Station</p>
+           </a>
+           <!-- Docking Station -->
+
+           <!-- Adapters -->
+           <a href="#">
+            <p class="text-white">Adapters</p>
+           </a>
+           <!-- Adapters -->
+
+           <!-- Hard Carrying Case -->
+            <a href="#">
+            <p class="text-white">Hard Carrying Case</p>
+           </a>
+           <!-- Hard Carrying Case -->
+
+           <!-- Silicone Protective Case -->
+             <a href="#">
+            <p class="text-white">Silicone Protective Case</p>
+           </a>
+           <!-- Silicone Protective Case -->
+        </a>
+        <br><br>
+      </div>
+       
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- ROG Ally/X -->
+         <a href="#">
+          <h5 class="text-white">Steam Deck LCD/OLED</h5>
+         </a>
+         <br>
+        <!-- ROG Ally/X -->
+
+        <!-- Docking Station -->
+           <a href="#">
+            <p class="text-white">Docking Station</p>
+           </a>
+        <!-- Docking Station //-->
+
+        <!-- Hard Carrying Case -->
+           <a href="#">
+            <p class="text-white">Hard Carrying Case</p>
+           </a>
+           <br><br>
+        <!-- Hard Carrying Case -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Nintendo Switch -->
+           <a href="#">
+            <h5 class="text-white">Nintedo Switch</h5>
+           </a>
+           <br>
+        <!-- Nintendo Switch -->
+
+        <!-- Switch Case -->
+           <a href="#">
+            <p class="text-white">Switch Case</p>
+           </a>
+        <!-- Switch Case //-->
+
+        <!-- Switch Protector -->
+            <a href="#">
+            <p class="text-white">Switch Protecter</p>
+           </a>
+           <br><br>
+        <!-- Switch Protector -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- AR/VR -->
+          <a href="#">
+            <h5 class="text-white">Switch Protecter</h5>
+           </a>
+           <br>
+        <!-- AR/VR -->
+
+        <!-- Head Straps -->
+           <a href="#">
+            <p class="text-white">Head Straps</p>
+           </a>
+        <!-- Head Straps -->
+
+        <!-- Controller Grips Cover -->
+           <a href="#">
+            <p class="text-white">Controller Grip Cover</p>
+           </a>
+        <!-- Controller Grips Cover -->
+
+        <!-- Smart Storage Solutions -->
+         <a href="#">
+            <p class="text-white">Smart Storage Solutions</p>
+          </a>
+        <!-- Smart Storage Solutions -->
+
+        <!-- Link Cables -->
+          <a href="#">
+            <p class="text-white">Link Cables</p>
+          </a>
+        <!-- Link Cables -->
+
+        <!-- Apple Vision Pro -->
+          <a href="#">
+            <p class="text-white">Apple Vision Pro</p>
+          </a>
+        <!-- Apple Vision Pro -->
+      </div>
+
+      <div class="col-2">
+        <!-- IT Accessory -->
+         <a href="#">
+          <h5 class="text-white">IT Accessory</h5>
+         </a>
+         <br>
+         <!-- IT Accessory -->
+
+        <!-- Adapters -->
+          <a href="#">
+            <p class="text-white">Adapters</p>
+          </a>
+        <!-- Adapters -->
+
+        <!-- Iphone Charger -->
+         <a href="#">
+            <p class="text-white">Iphone Charger</p>
+          </a>
+        <!-- Iphone Charger -->
+
+        <!-- Hubs -->
+          <a href="#">
+            <p class="text-white">Hubs</p>
+          </a>
+        <!-- Hubs -->
+
+        <!-- HDMI Cables -->
+         <a href="#">
+            <p class="text-white">HDMI Cables</p>
+          </a>
+        <!-- HDMI Cables -->
+
+        <!-- Link Cables -->
+         <a href="#">
+            <p class="text-white">Link Cables</p>
+          </a>
+        <!-- Link Cables -->
+
+        <!-- Bluetooth Receiver -->
+         <a href="#">
+            <p class="text-white">Bluetooth Receiver</p>
+          </a>
+        <!-- Bluetooth Receiver -->
+
+        <!-- Phone Holder -->
+          <a href="#">
+            <p class="text-white">Phone Holder</p>
+          </a>
+        <!-- Phone Holder -->
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- navbar-for-gaming -->
+
+<!-- Navbar-Made-for-meta -->
+<div id="about" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+
+        <!-- Policy -->
+      <a href="#">
+        <h5 class="text-white">Policy</h5>
+      </a>
+      <br>
+     <!-- Policy -->
+
+     <!-- Privacy Policy -->
+      <a href="#">
+        <p class="text-white">Privacy Policy</p>
+      </a>
+     <!-- Privacy Policy -->
+
+     <!-- Refund Policy -->
+      <a href="#">
+        <p class="text-white">Refund Policy</p>
+      </a>
+     <!-- Refund Policy -->
+
+     <!-- Shipping Policy -->
+      <a href="#">
+        <p class="text-white">Shipping Policy</p>
+      </a>
+     <!-- Shipping Policy -->
+
+     <!-- Term of Service -->
+      <a href="#">
+        <p class="text-white">Term of Service</p>
+      </a>
+     <!-- Term of Service -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+
+      <!-- Downloads -->
+        <a href="#">
+          <h5 class="text-white">Downloads</h5>
+        </a>
+      <!-- Downloads -->
+
+      <!-- Installation Package -->
+       <a href="#">
+        <p class="text-white">Installation Package</p>
+      </a>
+      <!-- Installation Package -->
+
+      <!-- Drive -->
+       <a href="#">
+        <p class="text-white">Drive</p>
+      </a>
+      <br><br>
+      <!-- Drive -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Contact Us -->
+          <a href="#">
+            <h5 class="text-white">Contact Us</h5>
+          </a>
+        <!-- Contact Us -->
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Tutorials -->
+          <a href="#">
+            <h5 class="text-white">Tutorials</h5>
+          </a>
+        <!-- Tutorials -->
+        <br><br>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- FAQS -->
+         <a href="#">
+            <h5 class="text-white">FAQ</h5>
+          </a>
+        <!-- FAQS -->
+      </div>
+     
+
+    </div>
+  </div>
+</div>
+<!-- Navbar-Made-for-meta //-->
+
+<!-- Navbar //-->
+ 
+
+</body>
+</html>

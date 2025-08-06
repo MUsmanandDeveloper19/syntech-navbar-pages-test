@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS -->
+      <link rel="stylesheet" href="style.css">
+     <!-- CSS //-->
+     <!-- CDN -->
+      <!-- cloudflare -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <!-- cloudflare -->
+      <!-- Swiper-slider -->
+       <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
+      <!-- Swiper-slider -->
+      <!-- Font-awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Font-awesome -->
+      <!-- Fade-aos-library  -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Fade-aos-library //-->
+       <!-- Bootstrap-5-css-cdn -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <!-- Bootstrap-5-css-cdn -->
+     <!-- CDN //-->
+    <title>Synctech Home</title>
+</head>
+<body>
+<!-- banner-html-code -->
+   <div class="slider-container" data-aos="fade-down"
+     data-aos-duration="800">
+    <button class="slider-btn" onclick="prevSlide()">&lt;</button>
+    <div id="sliderText" class="slider-text">
+      Sign Up to Get 15% Off Your First Purchase. Code: UNLEASH15
+    </div>
+    <button class="slider-btn" onclick="nextSlide()">&gt;</button>
+  </div>
+<!-- banner-html-code -->
+<section>
+<!-- Navbar-html-code  -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img class="img-fluid" src="logo-synctech.avif" alt="Logo" style="width: 120px;">
+    </a>
+
+    <!-- Burger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" onclick="toggleDropdown('home')">Keyboards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" onclick="toggleDropdown('services')">For Gaming</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" onclick="toggleDropdown('about')">Made For Meta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" onclick="toggleDropdown('contact')">About Us</a>
+        </li>
+      </ul>
+
+      <!-- Right-side Icons -->
+      <div class="d-flex gap-2">
+        <a href="#" class="icon-btn">
+          <i class="fa-regular fa-user text-white" id="navbar-icon"></i>
+        </a>
+        <a href="#" class="icon-btn">
+          <!-- <i class="fas fa-shopping-cart"></i> -->
+        <i class="fa-solid fa-magnifying-glass text-white" id="navbar-icon"></i>        
+        </a>
+        <a href="#" class="icon-btn">
+          <!-- <i class="fas fa-user"></i> -->
+           <i class="fa-solid fa-cart-shopping text-white" id="navbar-icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Dropdowns -->
+
+<!-- KEYBOARD -->
+<div id="home" class="dropdown-section">
+  <h4>Keyboards</h4>
+  <div class="container mt-5">
+    <a href="https://syntechhome.com/pages/partner" id="a-tag-nono">
+      <h6 class="text-white mt-3">Bussiness Partner</h6>
+    </a>
+    <a href="https://syntechhome.com/products/chronos-68-rapid-trigger-magnetic-keyboard" id="a-tag-nono">
+      <h6 class="text-white mt-3">Supports</h6>
+    </a>
+    <a href="https://syntechhome.com/products/chronos-68-rapid-trigger-magnetic-keyboard" id="a-tag-nono">
+      <h6 class="text-white mt-3">Chronos 68</h6>
+    </a>
+  </div>
+</div>
+<!-- KEYBOARD //-->
+
+<!-- fOR GAMING -->
+<div id="services" class="dropdown-section">
+  <h4>For Gaming</h4>
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        
+        <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">Steam Deck LCD/OLED</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Protecter</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Docking Station</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Adapters</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Hard Carrying Case</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Silicone Protective Case</p>
+        </a>
+        
+
+        
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+ 
+     <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">ROG Ally/X</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Docking Station</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Hard Carrying Case</p>
+        </a>
+       
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-12">
+
+         <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">Nintendo Switch</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Switch Case</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Switch Protector</p>
+        </a>
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-12">
+
+          <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">AR/VR</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Head Straps</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Controller Grips Cover</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Smart Storage Solutions</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Link Cables</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Apple Vision Pro</p>
+        </a>
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-12">
+
+        <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-5">IT Accessory</h5>
+        </a>
+
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Adapters</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Iphone Charger</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Hubs</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">HDMI Cables</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Link Cables</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Bluetooth Receiver</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white">Phone Holder</p>
+        </a>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FOR GAMING //-->
+
+<!-- MADE-FOR-META -->
+<div id="about" class="dropdown-section">
+  <h4>Made For Meta</h4>
+  
+  <div class="container">
+    <div class="row d-flex">
+
+      <div class="col-lg-3 col-md-12 col-sm-12"></div>
+
+    <div class="col-lg-3 col-md-12 col-sm-12">
+ 
+    <!-- Supports -->
+      <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-4">Supports</h5>
+        </a>
+
+      <div class="mt-4">
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">FAQ</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Comtact Us</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Tutorials</p>
+        </a>
+      </div>
+    <!-- Supports -->
+
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+
+      <!-- POLICY -->
+     <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-4">Policy</h5>
+        </a>
+
+      <div class="mt-4">
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Privacy Policy</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Refund Policy</p>
+        </a>
+         <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Shipping Policy</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Terms of Services</p>
+        </a>
+      </div>
+      <!-- POLICY -->
+
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+
+    <!-- DOWNLOADS -->
+     <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-4">Downloads</h5>
+        </a>
+
+      <div class="mt-4">
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Installation Packages</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">Drivers</p>
+        </a>
+      </div>
+      <!-- DOWNLOADS -->
+
+    </div>
+  </div>
+  </div>
+
+</div>
+<!-- MADE-FOR-META //-->
+
+<!-- ABOUT-US -->
+
+<div id="contact" class="dropdown-section">
+  <h4>About Us</h4>
+  
+   
+     <a href="#" id="a-tag-nono">
+          <h5 class="text-white mt-4">Blogs</h5>
+        </a>
+
+      <div class="mt-4">
+        <a href="#" id="a-tag-nono">
+          <p class="text-white mt-3">Evets</p>
+        </a>
+        <a href="#" id="a-tag-nono">
+          <p class="text-white">About Us</p>
+        </a>
+      </div>
+      <!-- DOWNLOADS -->
+</div>
+<!-- ABOUT-US //-->
+<!-- Navbar-html-code -->
+
+<!-- navbar-js-code -->
+<!-- Dropdown JS -->
+<script>
+  function toggleDropdown(id) {
+  // Close navbar if open (on mobile)
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+  if (window.innerWidth < 992 && navbarCollapse.classList.contains('show')) {
+    new bootstrap.Collapse(navbarCollapse).hide();
+  }
+
+  // Show selected dropdown
+  const sections = document.querySelectorAll('.dropdown-section');
+  const target = document.getElementById(id);
+
+  if (!target) return;
+
+  if (target.classList.contains('active')) {
+    target.classList.remove('active');
+  } else {
+    sections.forEach(s => s.classList.remove('active'));
+    target.classList.add('active');
+  }
+}
+
+</script>
+<!-- navbar-js-code -->
+
+<!-- Navbar //-->
+<!-- pages-inner-content-on-home-pg -->
+<!-- Dropdown Content Areas (Empty for now) -->
+<div id="home" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-4 text-center">  
+       <a href="#" class="text-white">
+        <b>Business Partner</b>
+       </a>
+       <br><br>
+       <a href="#" class="text-white">
+        <h5>Chronos 68</h5>
+       </a>
+      </div>
+      <!-- <div class="col-4"></div> -->
+      <div class="col-4 text-center">
+      <a href="#" class="text-white">
+        <b>Supports</b>
+      </a>
+      <br><br>
+      <a href="#" class="text-white">
+        <h5>Extra Keycaps</h5>
+      </a>
+      </div>
+    </div>
+  </div>
+  <!-- You can add content here later -->
+</div>
+<!-- navbar-for-gaming -->
+<div id="services" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+         <a href="#">
+          <h5 class="text-white">Steam Deck LCD/OLED</h5>
+         </a>
+          <br>
+           <!-- Protecter -->
+           <a href="#">
+            <p class="text-white">Protecter</p>
+           </a>
+           <!-- Protecter -->
+
+           <!-- Docking Station -->
+           <a href="#">
+            <p class="text-white">Docking Station</p>
+           </a>
+           <!-- Docking Station -->
+
+           <!-- Adapters -->
+           <a href="#">
+            <p class="text-white">Adapters</p>
+           </a>
+           <!-- Adapters -->
+
+           <!-- Hard Carrying Case -->
+            <a href="#">
+            <p class="text-white">Hard Carrying Case</p>
+           </a>
+           <!-- Hard Carrying Case -->
+
+           <!-- Silicone Protective Case -->
+             <a href="#">
+            <p class="text-white">Silicone Protective Case</p>
+           </a>
+           <!-- Silicone Protective Case -->
+        </a>
+        <br><br>
+      </div>
+       
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- ROG Ally/X -->
+         <a href="#">
+          <h5 class="text-white">Steam Deck LCD/OLED</h5>
+         </a>
+         <br>
+        <!-- ROG Ally/X -->
+
+        <!-- Docking Station -->
+           <a href="#">
+            <p class="text-white">Docking Station</p>
+           </a>
+        <!-- Docking Station //-->
+
+        <!-- Hard Carrying Case -->
+           <a href="#">
+            <p class="text-white">Hard Carrying Case</p>
+           </a>
+           <br><br>
+        <!-- Hard Carrying Case -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Nintendo Switch -->
+           <a href="#">
+            <h5 class="text-white">Nintedo Switch</h5>
+           </a>
+           <br>
+        <!-- Nintendo Switch -->
+
+        <!-- Switch Case -->
+           <a href="#">
+            <p class="text-white">Switch Case</p>
+           </a>
+        <!-- Switch Case //-->
+
+        <!-- Switch Protector -->
+            <a href="#">
+            <p class="text-white">Switch Protecter</p>
+           </a>
+           <br><br>
+        <!-- Switch Protector -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- AR/VR -->
+          <a href="#">
+            <h5 class="text-white">Switch Protecter</h5>
+           </a>
+           <br>
+        <!-- AR/VR -->
+
+        <!-- Head Straps -->
+           <a href="#">
+            <p class="text-white">Head Straps</p>
+           </a>
+        <!-- Head Straps -->
+
+        <!-- Controller Grips Cover -->
+           <a href="#">
+            <p class="text-white">Controller Grip Cover</p>
+           </a>
+        <!-- Controller Grips Cover -->
+
+        <!-- Smart Storage Solutions -->
+         <a href="#">
+            <p class="text-white">Smart Storage Solutions</p>
+          </a>
+        <!-- Smart Storage Solutions -->
+
+        <!-- Link Cables -->
+          <a href="#">
+            <p class="text-white">Link Cables</p>
+          </a>
+        <!-- Link Cables -->
+
+        <!-- Apple Vision Pro -->
+          <a href="#">
+            <p class="text-white">Apple Vision Pro</p>
+          </a>
+        <!-- Apple Vision Pro -->
+      </div>
+
+      <div class="col-2">
+        <!-- IT Accessory -->
+         <a href="#">
+          <h5 class="text-white">IT Accessory</h5>
+         </a>
+         <br>
+         <!-- IT Accessory -->
+
+        <!-- Adapters -->
+          <a href="#">
+            <p class="text-white">Adapters</p>
+          </a>
+        <!-- Adapters -->
+
+        <!-- Iphone Charger -->
+         <a href="#">
+            <p class="text-white">Iphone Charger</p>
+          </a>
+        <!-- Iphone Charger -->
+
+        <!-- Hubs -->
+          <a href="#">
+            <p class="text-white">Hubs</p>
+          </a>
+        <!-- Hubs -->
+
+        <!-- HDMI Cables -->
+         <a href="#">
+            <p class="text-white">HDMI Cables</p>
+          </a>
+        <!-- HDMI Cables -->
+
+        <!-- Link Cables -->
+         <a href="#">
+            <p class="text-white">Link Cables</p>
+          </a>
+        <!-- Link Cables -->
+
+        <!-- Bluetooth Receiver -->
+         <a href="#">
+            <p class="text-white">Bluetooth Receiver</p>
+          </a>
+        <!-- Bluetooth Receiver -->
+
+        <!-- Phone Holder -->
+          <a href="#">
+            <p class="text-white">Phone Holder</p>
+          </a>
+        <!-- Phone Holder -->
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- navbar-for-gaming -->
+
+<!-- Navbar-Made-for-meta -->
+<div id="about" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+
+        <!-- Policy -->
+      <a href="#">
+        <h5 class="text-white">Policy</h5>
+      </a>
+      <br>
+     <!-- Policy -->
+
+     <!-- Privacy Policy -->
+      <a href="#">
+        <p class="text-white">Privacy Policy</p>
+      </a>
+     <!-- Privacy Policy -->
+
+     <!-- Refund Policy -->
+      <a href="#">
+        <p class="text-white">Refund Policy</p>
+      </a>
+     <!-- Refund Policy -->
+
+     <!-- Shipping Policy -->
+      <a href="#">
+        <p class="text-white">Shipping Policy</p>
+      </a>
+     <!-- Shipping Policy -->
+
+     <!-- Term of Service -->
+      <a href="#">
+        <p class="text-white">Term of Service</p>
+      </a>
+     <!-- Term of Service -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+
+      <!-- Downloads -->
+        <a href="#">
+          <h5 class="text-white">Downloads</h5>
+        </a>
+      <!-- Downloads -->
+
+      <!-- Installation Package -->
+       <a href="#">
+        <p class="text-white">Installation Package</p>
+      </a>
+      <!-- Installation Package -->
+
+      <!-- Drive -->
+       <a href="#">
+        <p class="text-white">Drive</p>
+      </a>
+      <br><br>
+      <!-- Drive -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Contact Us -->
+          <a href="#">
+            <h5 class="text-white">Contact Us</h5>
+          </a>
+        <!-- Contact Us -->
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Tutorials -->
+          <a href="#">
+            <h5 class="text-white">Tutorials</h5>
+          </a>
+        <!-- Tutorials -->
+        <br><br>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- FAQS -->
+         <a href="#">
+            <h5 class="text-white">FAQ</h5>
+          </a>
+        <!-- FAQS -->
+      </div>
+     
+
+    </div>
+  </div>
+</div>
+<!-- Navbar-Made-for-meta //-->
+
+<div id="contact" class="dropdown-section container">
+  <!-- You can add content here later -->
+</div>
+<!-- pages-inner-content-on-home-pg //-->
+</section>
+
+
+<section>
+<!-- CONTAINER -->
+
+ <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img src="container-img-2.jpg" alt="" class="img-fluid" data-aos="fade-up"
+     data-aos-duration="1000">
+      </div>
+
+      <div class="swiper-slide">
+        <img src="container-img-1.webp" alt="" class="img-fluid" data-aos="fade-down"
+     data-aos-duration="1000">
+      </div>
+
+       <div class="swiper-slide">
+        <img src="containerimg-3.png" alt="" class="img-fluid" data-aos="fade-down"
+     data-aos-duration="1000">
+      </div>
+   
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <div class="autoplay-progress">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span>
+    </div>
+  </div>
+
+ 
+
+<!-- Dark-mode-light-mode -->
+  <button id="theme-toggle" title="Toggle Theme">
+    🌙
+  </button>
+
+
+  <script>
+const toggleBtn = document.getElementById('theme-toggle');
+
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+
+  if (document.body.classList.contains('dark-mode')) {
+    toggleBtn.textContent = '☀️';
+    toggleBtn.classList.add('spin');
+  } else {
+    toggleBtn.textContent = '🌙';
+    toggleBtn.classList.remove('spin');
+  }
+
+  // remove animation class after 1s
+  setTimeout(() => toggleBtn.classList.remove('spin'), 1000);
+});
+
+  </script>
+
+
+<!-- Dark-mode-light-mode -->
+
+
+
+
+
+  <script>
+       const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      on: {
+        autoplayTimeLeft(s, time, progress) {
+          progressCircle.style.setProperty("--progress", 1 - progress);
+          progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+      }
+    });
+
+  </script>
+
+<!-- CONTAINER //-->
+</section>
+
+<section>
+ <!-- Whats New -->
+  <div class="what-new-main-div">
+    <div class="row d-flex g-0">
+      <div class="col-lg-3 col-md-8 col-sm-12">
+        <div class="whats-new" data-aos="fade-down"
+     data-aos-duration="700">
+          <h5 class="text-white text-center pt-1">What's New</h5>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-12 col-sm-12">
+        <!-- Whats-new-banner-html-code -->
+          <div class="whats-new-slider-container" data-aos="fade-up"
+     data-aos-duration="700">
+    <button class="whats-new-slider-btn" onclick="prevSlide()">&lt;</button>
+    <div id="whats-new-sliderText" class="whats-new-slider-text">
+      Sign Up to Get 15% Off Your First Purchase. Code: UNLEASH15
+    </div>
+    <button class="whats-new-slider-btn" onclick="nextSlide()">&gt;</button>
+  </div>
+        <!-- Whats-new-banner-html-code //-->
+      </div>
+    </div>
+  </div>
+ <!-- Whats New -->
+</section>
+
+<section>
+  <!-- Synctech-video-section -->
+  <div class="Synctech-video-section-div text-center" data-aos="fade-left"
+     data-aos-duration="1000">
+    <video class="w-100" src="https://syntechhome.com/cdn/shop/videos/c/vp/e06d5d0defbe465cb2029faf3e9c40f6/e06d5d0defbe465cb2029faf3e9c40f6.HD-1080p-7.2Mbps-47145795.mp4?v=0" muted loop autoplay></video>
+    <a href="#">
+      <button id="synctech-home-video-btn" class="btn btn-outline-info" data-aos="fade-down"
+     data-aos-duration="1000">Learn More</button>
+    </a>
+  </div>
+  <!-- Synctech-video-section -->
+</section>
+
+<section>
+  <!-- Shop by Category -->
+   <div class="container">
+    <h1 id="fade" class="text-center mt-3" data-aos="fade-up"
+     data-aos-duration="1000">Shop by Category</h1>
+   <div class="row d-flex justify-content-center mt-3">
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+         <!-- Steam-Deck -->
+           <div id="Category-img-div" data-aos="fade-left"
+            data-aos-duration="1000">
+            <img src="steam-deck.webp" alt="" id="Shop-by-Category-img" data-aos="fade-right"
+             data-aos-duration="1000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-up"
+            data-aos-duration="1000">Steam Deck</p>
+         <!-- Steam-Deck -->
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- AR/VR -->
+          <div id="Category-img-div" data-aos="fade-up"
+            data-aos-duration="3000">
+            <img src="ar-vr.webp" alt="" id="Shop-by-Category-img" data-aos="fade-down"
+             data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-up"
+     data-aos-duration="3000">AR/VR</p>
+        <!-- AR/VR -->
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- ROG Ally -->
+         <div id="Category-img-div" data-aos="fade-down"
+            data-aos-duration="3000">
+            <img src="rog-ally.webp" alt="" id="Shop-by-Category-img" data-aos="fade-up"
+             data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center  mt-3" data-aos="fade-down"
+            data-aos-duration="1000">ROG ALLY</p>
+        <!-- ROG Ally -->
+  
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- More In Gaming -->
+          <div id="Category-img-div" data-aos="fade-up"
+           data-aos-duration="3000">
+            <img src="more-in-gaming.webp" alt="" id="Shop-by-Category-img" data-aos="fade-down"
+            data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-up"
+           data-aos-duration="1000">MORE IN GAMING</p>
+        <!-- More In Gaming -->
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- Creator's Gear -->
+          <div id="Category-img-div" data-aos="fade-down"
+             data-aos-duration="3000">
+            <img src="creators-gear.webp" alt="" id="Shop-by-Category-img" data-aos="fade-up"
+             data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-down"
+           data-aos-duration="1000">CREATORS GEAR</p>
+        <!-- Creator's Gear -->
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- IT Accessories -->
+          <div id="Category-img-div" data-aos="fade-right"
+            data-aos-duration="3000">
+            <img src="it--accessories.webp" alt="" id="Shop-by-Category-img" data-aos="fade-left"
+             data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-up"
+            data-aos-duration="1000">IT ACCESSORIES</p>
+        <!-- IT Accessories -->
+    </div>
+   </div>
+   </div>
+  <!-- Shop by Category -->
+</section>
+
+
+<section>
+  <!-- NEW_ARRIVALS -->
+  <div class="container mt-5">
+    <h1 id="fade" class="text-center mt-5">New Arrivals</h1>
+
+
+ <div class="swiper-container-wrapper">
+    <div class="swiper myCustomSlider">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+       
+           <div class="swiper-slide">
+           <a href="#">
+            <img data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/8_4e516ca9-a973-4eca-8dcb-9ec2e97a85ee.jpg?v=1752571251&width=400" alt="Slide 1" style="width: 100px; height: 100px;">
+           </a>
+            <div class="slide-content">
+            <h6>Chronos 68 Rapid <br> Trigger Magnetic </h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$179.99</p>
+          </div>
+        </div>
+
+        <!-- Repeat more slides -->
+        <div class="swiper-slide">
+         <a href="#">
+          <img data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/HeadStrap.png?v=1746521148&width=400" alt="Slide 2" style="width: 100px; height: 100px;">
+         </a>
+          <div class="slide-content">
+            <h6>head Strap For <br> Quest 3/3S</h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$49.99</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+         <a href="#">
+          <img data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/Carrying_Case_Compatible_with_Nintendo_Switch2_Shadow_Breath.png?v=1751623912&width=400" alt="Slide 3" style="width: 100px; height: 100px;">
+         </a>
+          <div class="slide-content">
+            <h6>Carrying Case Compatible</h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$17.99</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/473fddb29df4ffc53d705afce277306_960f1537-31f9-4baa-86d6-6036d9b96afc.png?v=1745197765&width=400" alt="Slide 4" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>XR Headset br Backpack </h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$99.99</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/902bd804570929f6d9d0236e3f97132.png?v=1746520165&width=400" alt="Slide 5" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>Head Strap With <br> Battery Pack</h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$59.99</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/3_1-removebg-preview.png?v=1731643565&width=400" alt="Slide 6" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>VR Wood Desk <br> Stand </h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$39.99</p>
+          </div>
+        </div>
+
+           <div class="swiper-slide">
+          <a href="#">
+            <img data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/main_picture_3_-png.png?v=1737449484&width=400" alt="Slide 7" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>XR Power Bank <br> Belt </h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$39.99</p>
+          </div>
+        </div>
+
+           <div class="swiper-slide">
+          <a href="#">
+            <img class="mt-3" src="https://syntechhome.com/cdn/shop/files/5_c1584621-ff99-45b4-b51d-bbe6b812b001-removebg-preview.png?v=1731643697&width=400" alt="Slide 8" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>Product Name 6</h6>
+            <p style="font-size: 12px; margin: 0;">Something</p>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">Another thing</p>
+          </div>
+        </div>
+
+        <!-- You can add more slides as needed -->
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Swiper Init -->
+  <script>
+    const swiper = new Swiper('.myCustomSlider', {
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      grabCursor: true,
+      breakpoints: {
+        0: { slidesPerView: 1.5 },
+        400: { slidesPerView: 2 },
+        600: { slidesPerView: 3 },
+        768: { slidesPerView: 4 },
+        992: { slidesPerView: 5 },
+        1200: { slidesPerView: 6 },
+      },
+    });
+  </script>
+
+<!-- NEW_ARRIVALS //-->
+</section>
+
+<section>
+<!-- PARTNER-WITH-SYNTECH -->
+<div class="container mt-5">
+
+  <h1 class="text-center mt-5" id="fade" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Partner With Syntech</h1>
+  <p class="text-center" data-aos="fade-down" data-aos-anchor-placement="center-bottom">We are Expanding and Looking for Distributors Globally</p>
+
+  <div class="row d-flex shadow p-5 bg-light mt-5">
+    <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+   <div class="container">
+  <div class="d-flex mt-5 justify-content-between align-items-center flex-wrap">
+    <!-- certified-organization -->
+    <img data-aos="fade-left"
+     data-aos-duration="1000" src="certified-organiztation.avif" alt="" style="width: 70px;">
+
+    <!-- amazon-seller -->
+    <img data-aos="fade-up"
+     data-aos-duration="2000" src="amazon-seller.webp" alt="" style="width: 70px;">
+
+    <!-- R&D-Oriented -->
+    <img data-aos="fade-right"
+     data-aos-duration="3000" src="R & D Oriented.avif" alt="" style="width: 70px;">
+  </div>
+</div>
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 mt-2 text-center">
+      <h2 class="text-center" style="color: navy; font-family: Arial, Helvetica, sans-serif;">
+        <b>Get Started Today</b>
+      </h2>
+      <h5 class="mt-4">For Distribution Enquiries</h5>
+      <a href="#">
+        <p>armihuang@syntechhome.com</p>
+      </a>
+      <!-- leran-more-btn -->
+        <a href="#">
+          <button class="btn btn-primary" style="border-radius: 22px;">Learn More</button>
+        </a>
+      <!-- leran-more-btn -->
+    </div>
+  </div>
+
+</div>
+<!-- PARTNER-WITH-SYNTECH -->
+</section>
+
+
+<section>
+  <!-- Media-reviews -->
+   <div class="container mt-5">
+    <h1 class="text-center mt-5" id="fade">Media Reviews</h1>
+
+    <!-- media-reviews -->
+     <div class="row d-flex">
+      <div class="col-3">
+        <h1></h1>
+      </div>
+      <div class="col-6">
+      <div class="media-reviews mt-5">
+       <div class="review-line active">"The Syntech Steam Deck Dock is a sturdy budget-friendly solution for desktop gaming."</div>
+       <div class="review-line">"In terms of its HDMI connection, the Syntech dock works like a dream."</div>
+       <div class="review-line">"If you're going to get someone a handheld gaming PC— or know someone who already has one — this is the accessory we recommend gifting them."</div>
+       <div class="review-line">"The 2023 Red Dot Design Award-winning accessory may add up to six hours of extra game-play while providing potentially improved balance and control in headset-based gaming."</div>
+       <div class="review-line">"If you plan on using your Quest 3 with a gaming PC to access Steam VR, this seems to be a solid option that's on sale frequently.</div>
+      </div>
+
+      </div>
+      <div class="col-3"></div>
+     </div>
+    <!-- media-reviews -->
+
+    <!-- media-reviews-js -->
+      <script>
+  const reviews = document.querySelectorAll(".media-reviews .review-line");
+  let current = 0;
+
+  setInterval(() => {
+    reviews[current].classList.remove("active");
+    current = (current + 1) % reviews.length;
+    reviews[current].classList.add("active");
+  }, 3000);
+</script>
+
+  <!-- media-reviews-imgs -->
+  <div class="container">
+    <section>
+      <div class="row d-flex mt-5">
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <a href="#">
+          <img class="mt-5" src="popsci.svg" alt="" style="width: 70px;">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <a href="#">
+          <img class="mt-5" src="thegamer.avif" alt="" style="width: 100px;">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <a href="#">
+          <img class="mt-5" src="gamesrads.avif" alt="" style="width: 100px;">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <a href="#">
+          <img class="mt-5" src="pochet.avif" alt="" style="width: 100px;">
+        </a>
+      </div>
+    </div>
+    </section>
+    <div class="text-center mt-3">
+      <a href="#">
+        <img class="mt-3" src="nootbook.avif" alt="" style="width: 100px;">
+      </a>
+    </div>
+  </div>
+  <!-- media-reviews-imgs -->
+<!-- media-reviews-js -->
+   </div>
+  <!-- Media-reviews -->
+</section>
+
+
+<section>
+  <!-- STAY-UPDATED -->
+   <div class="container">
+    <h1 id="fade" class="text-center" style="margin-top: 100px;">Stay Updated</h1>
+    <h5 class="text-center mt-4" style="font-weight: 400;">Keep up with our latest gaming insights, tips and reviews in the world of gaming <br> accessories and tech.</h5>
+  </div>
+
+  <div class="container mt-5">
+  <div class="row g-4">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+     <a href="#" class="text-decoration-none text-dark">
+       <div class="hover-box p-4" data-aos="fade-right" data-aos-duration="2000">
+        <img data-aos="fade-down" data-aos-duration="3000" src="stay-updated-img-1.webp" alt="" style="width: 100%;  border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+        <!-- peraline -->
+         <h5 class="mt-3">How to improve your Meta Quest Battery life?</h5>
+         <b style="color: navy;">On Jul 24,2025 | 34 Days ago</b> 
+         <br>
+         <b class="mt-2" style="color: navy;">Read More</b>
+        <!-- peraline -->
+      </div>
+     </a>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+    <a href="#" class="text-decoration-none text-dark">
+        <div class="hover-box p-4" data-aos="fade-up" data-aos-duration="2000">
+        <img data-aos="fade-down" data-aos-duration="3000" src="stay-updated-img-2.webp" alt="" style="width: 100%; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+         <!-- peraline -->
+         <h5 class="mt-3">Keyboard Size Guide: Full-Size, TKL, 75%, 65%, and 60%...</h5>
+         <b style="color: navy;">On Jul 27,2025 | 32 Days ago</b> 
+         <br>
+         <b class="mt-2" style="color: navy;">Read More</b>
+        <!-- peraline -->
+
+      </div>
+    </a>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+     <a href="#" class="text-decoration-none text-dark">
+       <div class="hover-box p-4" data-aos="fade-left" data-aos-duration="2000">
+        <img data-aos="fade-up" data-aos-duration="3000" src="stay-updated-img-3.webp" alt="" style="width: 100%; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+         <!-- peraline -->
+         <h5 class="mt-3">Syntech Shines at the 2025 XR Metaverse Fair Tokyo: A Recap...</h5>
+         <b style="color: navy;">On Jul 09,2025 | 20 Days ago</b> 
+         <br>
+         <b class="mt-2" style="color: navy;">Read More</b>
+        <!-- peraline -->
+      </div>
+     </a>
+    </div>
+  </div>
+   <!-- View-All-button -->
+      <div class="text-center mt-5" data-aos="fade-up" data-aos-duration="1000">
+        <a href="#">
+          <button class="btn btn-primary text-center" style="border-radius: 8px;">View All</button>
+        </a>
+      </div>
+     <!-- View-All-button -->
+</div>
+  <!-- STAY-UPDATED -->
+</section>
+
+
+<section>
+  <div class="container text-center mt-5">
+    <div class="row d-flex mt-5">
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="100%secure.png" alt="" style="width: 130px;">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="30-days.png" alt="" style="width: 170px;">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="guranteed-after-sale.png" alt="" style="width: 160px;">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="customer-support.png" alt="" style="width: 110px;">
+      </div>
+    </div>
+  </div>  
+</section>
+
+<footer>
+  <div id="footer-img-div">
+    <img src="footter-img.webp" alt="" id="footer-img" data-aos="fade-down" data-aos-duration="500">
+    <div id="footer-content">
+      <h6 id="footer-h6" class="text-center text-white" id="footer-img" data-aos="fade-up" data-aos-duration="1000">Subscribe now to get a gift with your first order!</h6>
+      <h4 id="footer-h4" class="text-center text-white" id="footer-img" data-aos="fade-down" data-aos-duration="500">Get an Exclusive 10% Off Your First Purchas</h4>
+       <!-- inputs -->
+      <div class="inputs d-flex" id="footer-input-box">
+        <input type="email" name="" id="footer-email" placeholder="Email" id="footer-img" data-aos="fade-right" data-aos-duration="2000">
+        <button id="footer-subvscribe-btn" data-aos="fade-left" data-aos-duration="2000">Subscribe</button>
+      </div>
+    <!-- inputs -->
+    <!-- Check-box-input -->
+     <div class="d-flex justify-content-center">
+      <input type="radio" name="" id="">
+      <p class="text-white mt-3 ml-3" id="radio-line" data-aos="fade-down" data-aos-duration="2000">I agree to the Terms of Use and Privacy Policy</p>
+     </div>
+    <!-- Check-box-input -->
+    </div>
+  </div>
+</footer>
+
+<footer style="background-color: black; height: auto; border: none; margin-top: -50px;">
+  <div class="container">
+    <div class="row d-flex mt-5">
+      <div class="col-lg-6 mx-auto col-md-12 col-sm-12">
+        <div class="row d-flex mx-auto">
+          <div class="col-6 mt-5">
+            <!-- Contact-Us -->
+         <h4 class="text-white" data-aos="fade-right" data-aos-duration="2000">Contact Us</h4>
+         <h6 class="text-white mt-4" data-aos="fade-left" data-aos-duration="1000">We will get back to you within 24 hours.</h6>
+         <div id="contact-us">
+          <!-- Customer Support -->
+          <div class="d-flex mt-5">
+            <div class="customer-support-tag">
+              <i class="fa-regular fa-envelope text-white" style="font-size: 20px;" data-aos="fade-up" data-aos-duration="2000"></i>
+            </div>
+            <div class="customer-support-content">
+              <b class="text-white" style="margin-left: 10px;" data-aos="fade-down" data-aos-duration="2000">Customer Support</b>
+              <p style="color: gray; font-size: 13px; margin-left: 11px;" data-aos="fade-up" data-aos-duration="2000">Support@syntechhome.com</p>
+            </div>
+          </div>
+
+         <!-- influencer and Partnerships -->
+          <div class="d-flex mt-3">
+            <div class="influencer and Partnerships-tag">
+              <!-- <i class="fa-regular fa-envelope text-white"></i> -->
+              <i class="fa-regular fa-handshake" style="color: #ffffff; font-size: 20px; margin-top: 7px;" data-aos="fade-right" data-aos-duration="2000"></i>
+            </div>
+            <div class="influencer and Partnerships-content">
+              <b class="text-white" style="margin-left: 10px;" data-aos="fade-left" data-aos-duration="2000">influencer and Partnerships</b>
+              <p style="color: gray; font-size: 13px; margin-left: 11px;" data-aos="fade-up" data-aos-duration="2000">hello@syntechhome.com</p>
+            </div>
+          </div>
+        <!-- influencer and Partnerships -->
+
+        <!-- Wholesale and Distributors -->
+          <div class="d-flex mt-3">
+            <div class="Wholesale and Distributors-tag">
+              <i class="fa-regular fa-building" style="color: #ffffff; font-size: 20px; margin-top: 7px;" data-aos="fade-right" data-aos-duration="2000"></i>
+            </div>
+            <div class="Wholesale and Distributors-content">
+              <b class="text-white" style="margin-left: 10px;" data-aos="fade-down" data-aos-duration="2000">Wholesale and Distributors</b>
+              <p style="color: gray; font-size: 13px; margin-left: 11px;" data-aos="fade-up" data-aos-duration="2000">armihuang@syntechhome.com</p>
+            </div>
+          </div>
+        <!-- Wholesale and Distributors -->
+
+          <!-- Website Live Chat -->
+          <div class="d-flex mt-3">
+            <div class="Wholesale and Distributors-tag">
+              <i class="fa-solid fa-headset" style="color: #ffffff; font-size: 20px; margin-top: 7px;" data-aos="fade-right" data-aos-duration="2000"></i>
+            </div>
+            <div class="Wholesale and Distributors-content">
+              <b class="text-white" style="margin-left: 10px;" data-aos="fade-right" data-aos-duration="2000">Website Live Chat</b>
+              <p style="color: gray; font-size: 13px; margin-left: 11px;">Mon-Fri 9.30 am - 7.00 pm（CST）</p>
+            </div>
+          </div>
+         </div>
+        <!-- Website Live Chat -->
+          </div>
+          <div class="col-6 mt-5">
+          <div id="discover">
+          <!-- DISCOVER -->
+         <h4 class="text-white" data-aos="fade-down" data-aos-duration="2000">Discover</h4>
+        <p class="mt-3 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-up" data-aos-duration="1000">Our Story</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-down" data-aos-duration="1000">Contact Us</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-up" data-aos-duration="1000">Blogs</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-down" data-aos-duration="1000">Videos</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-up" data-aos-duration="1000">Tutorials</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-down" data-aos-duration="1000">Donation</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-up" data-aos-duration="1000">Wholesale</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-down" data-aos-duration="1000">Affiliate Program</a></p>
+        <!-- DISCOVER //-->
+        </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex mx-auto">
+        <div class="col-4 mt-5">
+    <!-- SUPPORT -->
+      <h4 class="text-white" data-aos="fade-up" data-aos-duration="1000">Support</h4>
+        <p class="mt-3 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-down" data-aos-duration="1000">Shipping Policy</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-up" data-aos-duration="1000">Refund Policy</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-down" data-aos-duration="1000">Privacy Policy</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-up" data-aos-duration="1000">Term of Service</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-down" data-aos-duration="1000">FAQ</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-up" data-aos-duration="1000">Warranty</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-down" data-aos-duration="1000">Installation Package</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;" data-aos="fade-up" data-aos-duration="1000">Driver Download</a></p>
+        <!-- SUPPORT //-->
+
+        </div>
+        <div class="col-4 mt-5">
+          <!-- CATEGORIES -->
+        <h4 class="text-white">Categories</h4>
+        <p class="mt-3 text-white"><a href="#" class="text-white" style="text-decoration: none;">Steam Deck</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;">VR/AR</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;">ROG Ally</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;">More In Gaming</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;">Creators Gear</a></p>
+        <p class="mt-1 text-white"><a href="#" class="text-white" style="text-decoration: none;">Warranty</a></p>
+        <!-- CATEGORIES //-->
+        </div>
+        <div class="col-4 mt-5">
+            <!-- FOLLOWS-US -->
+        <h4 class="text-white" data-aos="fade-left" data-aos-duration="1000">Follow Us</h4>
+       <!-- FACEBOOK -->
+        <a href="#" style="text-decoration: none;">
+          <i class="fa-brands fa-facebook mt-4" id="footer-icon" data-aos="fade-right" data-aos-duration="1000"></i>
+        </a>
+        <!-- FACEBOOK //-->
+        <!-- TWITTER -->
+        <a href="#" style="text-decoration: none;">
+          <i class="fa-brands fa-x-twitter mt-4" id="footer-icon" data-aos="fade-up" data-aos-duration="1000"></i>
+        </a>
+        <!-- TWITTER //-->
+       <!-- YOUTUBE -->
+        <a href="#" style="text-decoration: none;">
+         <i class="fa-brands fa-youtube mt-4" id="footer-icon" data-aos="fade-left" data-aos-duration="1000"></i>
+        </a>
+       <!-- YOUTUBE -->
+        <br>
+       <!-- LINKEDIN -->
+        <a href="#" style="text-decoration: none;">
+        <i class="fa-brands fa-linkedin mt-4" id="footer-icon" data-aos="fade-right" data-aos-duration="1000"></i>
+       </a>
+       <!-- LINKEDIN -->
+       <!-- INSTAGRAM -->
+        <a href="#" style="text-decoration: none;">
+        <i class="fa-brands fa-instagram mt-4" id="footer-icon" data-aos="fade-down" data-aos-duration="1000"></i>
+       </a> 
+       <!-- INSTAGRAM -->
+        <!-- DISCORD -->
+        <a href="#" style="text-decoration: none;">
+          <i class="fa-brands fa-discord mt-4" id="footer-icon" data-aos="fade-left" data-aos-duration="1000"></i>
+        </a>
+        <!-- DISCORD -->
+        <br>
+        <!-- PRINER -->
+        <a href="#" style="text-decoration: none;">
+        <i class="fa-brands fa-pinterest mt-4" id="footer-icon" data-aos="fade-right" data-aos-duration="1000"></i>
+        </a>
+        <!-- PRINTER -->
+        <!-- TIKTOK -->
+         <a href="#" style="text-decoration: none;">
+          <i class="fa-brands fa-tiktok mt-4" id="footer-icon" data-aos="fade-up" data-aos-duration="1000"></i>
+        </a>
+        <!-- TIKTOK -->
+        <!-- REDDIT -->
+         <a href="#" style="text-decoration: none;">
+          <i class="fa-brands fa-reddit-alien mt-4" id="footer-icon" data-aos="fade-left" data-aos-duration="1000"></i>
+        </a>
+        <!-- REDDIT -->
+        <!-- FOLLOW-US -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="text-end">
+      <img src="atm-card-option.png" alt="" style="width: 270px;">
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+<!-- JAVASCRIPT -->
+<!-- banner-js- -->
+ <script src="index.js"></script>
+<!-- banner-js-/ -->
+
+<!-- swiper-slider-js -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- swiper-slider.js -->
+
+<!-- fade-aos-library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- fade-aos-library -->
+
+<!-- Bootstrap-5-js-cdn -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- Bootstrap-5-js-cdn -->
+
+<!-- JAVASCRIPT -->
+
+
+</body>
+</html>
